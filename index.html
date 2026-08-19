@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的地盘</title>
     <style>
-        /* 这里是控制样式的区域 */
         body {
-            /* 让内容在屏幕正中间 */
             display: flex;
             justify-content: center; /* 水平居中 */
             align-items: center;     /* 垂直居中 */
@@ -17,18 +15,17 @@
         }
 
         h1 {
-            /* 字体设置 */
             font-family: "Microsoft YaHei", "Heiti SC", sans-serif; /* 优先用微软雅黑或黑体 */
             font-size: 80px;         /* 字号超级大 */
             font-weight: 900;        /* 字重：最粗的黑体 */
             color: #000000;          /* 颜色：纯黑 */
             text-align: center;      /* 文字居中 */
             
-            /* 加一点点阴影，看起来更有质感 */
+            /* 加一点阴影 */
             text-shadow: 2px 2px 10px rgba(0,0,0,0.2); 
         }
 
-        /* 针对手机屏幕的小优化：如果屏幕太小，字自动变小一点，防止撑破屏幕 */
+        /* 手机屏幕优化：如果屏幕太小，字自动变小一点，防止撑破屏幕 */
         @media (max-width: 600px) {
             h1 {
                 font-size: 40px; 
@@ -37,14 +34,9 @@
     </style>
 </head>
 <body>
-
-    <!-- 这里是显示的内容 -->
     <h1>这是我的地盘</h1>
-
 </body>
 <body>
-    <p>
-    <a href="about/">我是谁</a>
-    </p>
+    <p><a href="about/">我是谁</a></p>
 </body>
 </html>
